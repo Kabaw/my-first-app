@@ -1,3 +1,4 @@
-<br>
-The Server Component
-<br>
+<div [ngClass]="serverInfo.activeServer ? 'active' : 'inactive'">
+    {{serverName}}
+    {{serverInfo.activeServer}}
+</div>

@@ -1,0 +1,15 @@
+div{
+    margin-top: 10px;
+    padding: 10px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.active{
+    background-color: greenyellow;
+}
+
+.inactive{
+    background-color: red;
+}
