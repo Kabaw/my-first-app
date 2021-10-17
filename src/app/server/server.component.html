@@ -1,4 +1,4 @@
-<div [ngClass]="serverInfo.activeServer ? 'active' : 'inactive'">
-    {{serverName}}
-    {{serverInfo.activeServer}}
+<div [ngClass]="serverInfo.activeServer == serverStatusReference ? 'active' : 'inactive'">
+    {{serverName}}:
+    {{serverInfo.activeServer == serverStatusReference ? 'ACTIVE' : 'INACTIVE'}}
 </div>
